@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+    <!-- ------header------- -->
+    <header>
+    <section class="sec header ">
+        <nav>
+            <div class="progress-bar"></div>
+            <div class="toggle" onclick="toggleMenu();"></div>
+
+            <a href="">My Portfolio_</a>
+
+            <div class="nav-bar">
+                <ul class="navigation">
+                    <li class="btn active-btn" data-id="home">Home</li>
+                    <li class="btn " data-id="my-work">My Work</li>
+                    <li class="btn " data-id="contact">Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    </header>
+    <!-- --------main-------- -->
+    <main>
+    <section class="sec home active" id="home">
+    <div class="up-home">
+        <div class="left-home">
+            <div><img src="img/myAvatar.png" class="image"></div>
+        </div>
+
+        <div class="right-home">
+            <h1>
+                Hello, I am <span class="name">Phạm Quang Tùng.</span>
+                <br>I am a <span class="front-end"> Front-end Web Developer.</span>
+            </h1>
+            <p>I am passionate about Front-end development. So I learned it by myself. Learning programming is never easy, especially when you have to learn it by yourself.
+                <br>
+                <br>Overcoming many difficulties and obstacles, I have gained little knowledge and achievements.
+                <br>      
+                <br>Becoming a web developer is my dream, and I will continue to work as hard as I can to get it. 
+            </p>
+
+            <div class="download-btn">
+                <a href="TungCV.pdf" class="main-btn" download="TungCV.pdf">
+                    <span class="btn-text">DOWNLOAD CV</span>
+                    <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-home">
+        <div class="row">
+            <div class="row--inner">
+                <ul>
+                    <li><img src="img/html.jpg"></li>
+                    <li><img src="img/css.jpg"></li>
+                    <li><img src="img/js.jpg"></li>
+                    <li><img src="img/sass.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="sec my-work" id="my-work">
+        <div class="main-title underline">
+            <h2>MY WORK</h2>
+        </div>
+        <!-- <p class="work-description">These are my lastest personal project. </p> -->
+        <div class="work-items">
+            <div class="work-item">
+                <div class="image">
+                    <img src="img/work1.png">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://tungphamq.github.io/university/" target="_blank" class="icon">
+                                <i class="fa-solid fa-earth-asia"></i>
+                            </a>
+                            <a href="https://github.com/TungPhamQ/university" target="_blank" class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- <div class="work-text">
+                    <h4>Work1 title</h4>
+                    <p>description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reprehenderit voluptate aliquid officiis ab sapiente sit voluptatum totam id modi, nulla temporibus! Aspernatur repellat, vitae temporibus error inventore magni. Voluptate.</p>
+                </div> -->
+            </div>
+            <div class="work-item">
+                <div class="image">
+                    <img src="img/work2.png">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://tungphamq.github.io/KFC-landing-page/" target="_blank" class="icon">
+                                <i class="fa-solid fa-earth-asia"></i>
+                            </a>
+                            <a href="https://github.com/TungPhamQ/KFC-landing-page" target="_blank" class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- <div class="work-text">
+                    <h4>Work1 title</h4>
+                    <p>description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reprehenderit voluptate aliquid officiis ab sapiente sit voluptatum totam id modi, nulla temporibus! Aspernatur repellat, vitae temporibus error inventore magni. Voluptate.</p>
+                </div> -->
+            </div>
+            <div class="work-item">
+                <div class="image">
+                    <img src="img/work1.png">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://tungphamq.github.io/university/" target="_blank" class="icon">
+                                <i class="fa-solid fa-earth-asia"></i>
+                            </a>
+                            <a href="https://github.com/TungPhamQ/university" target="_blank" class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- <div class="work-text">
+                    <h4>Work1 title</h4>
+                    <p>description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reprehenderit voluptate aliquid officiis ab sapiente sit voluptatum totam id modi, nulla temporibus! Aspernatur repellat, vitae temporibus error inventore magni. Voluptate.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="sec contact" id="contact">
+        <div class="main-title underline">
+            <h2>CONTACT ME</h2>
+        </div>
+        <div class="info">
+            <div class="contact-text">
+                <p>If you want me to collab with me. Feel free to contact me. Or download my CV to learn more about me in detail.</p>
+                <div class="download-btn">
+                    <a href="TungCV.pdf" class="main-btn" download="TungCV.pdf">
+
+                        <span class="btn-text">DOWNLOAD CV</span>
+                        <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-infos">
+                <div class="contact-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email: Tungpham2109@duck.com</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/TungPhamQ" target="_blank">Github: TungPhamQ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+     
+    <script src="main.js"></script>
+    </main>
+    <!-- --------footer------ -->
+    <footer>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Tung Pham</p>
+    </footer>
+</body>
+</html>
